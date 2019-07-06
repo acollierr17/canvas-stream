@@ -12,6 +12,7 @@ module.exports = async (client, message) => {
 
     if (message.author.bot) return;
     if (message.content.indexOf(newPrefix) !== 0) return;
+    if (message.channel.id !== '480596757517172736') return;
 
     const args = message.content.slice(newPrefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();

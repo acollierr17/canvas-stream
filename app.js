@@ -17,6 +17,7 @@ client.commands = new Enmap();
 client.aliases = new Enmap();
 
 client.logger = require('./utils/logger');
+client.config = require('./config');
 
 require('./utils/functions')(client);
 
