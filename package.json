@@ -28,11 +28,13 @@
   "homepage": "https://github.com/acollierr17/discord.js-template#README.md",
   "dependencies": {
     "canvas": "^2.5.0",
+    "canvas-constructor": "^3.1.0",
     "common-tags": "^1.8.0",
     "discord.js": "^11.4.2",
     "discord.js-canvas": "0.0.1",
     "dotenv-flow": "^0.1.0",
     "enmap": "^4.3.2",
+    "fs-nextra": "^0.4.5",
     "moment": "^2.22.2",
     "moment-duration-format": "^2.2.2",
     "moment-timezone": "^0.5.21",
